@@ -1,14 +1,20 @@
 const artworks = document.querySelectorAll(".artwork");
 
-  function showModal() {
-    this.style.display = "block"
+  // function showModal() {
+  //   e.preventDefault();
+  //   this.style.setProperty("" = )
 
-  }
+  //   console.log(this);
+
+  // }
 
 
 artworks.forEach((artwork) => {
-  artwork.addEventListener('click', showModal);
-})
+  artwork.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log(e.currentTarget.style)
+  });
+});
 
 // const intro = document.querySelector(".introduction");
 // const stats = document.querySelector(".statistics");
