@@ -1,13 +1,19 @@
-#home {
+#home-image {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  h1 {
-    margin: 0 50px 50px 50px;
-  }
-  p {
-    margin-top: 1.5em;
-  }
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-button {
+  position: absolute;
+  bottom: 40px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
