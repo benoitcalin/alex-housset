@@ -7,8 +7,15 @@
     </div>
   </div>
 
-  <div class="artworks-index">
-    <!-- Créer la CSS grid ici -->
+  <div class="artworks-inner-wrapper">
+    <div class="artworks-index">
+      <div class="grid">
+        <% for i in (1..48) do %>
+          <div class="artwork artwork-<%= i %>"><%= i %></div>
+        <% end %>
+      </div>
+      <!-- Créer la CSS grid ici -->
+    </div>
   </div>
 
 </div>

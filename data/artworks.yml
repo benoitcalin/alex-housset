@@ -1,0 +1,6 @@
+- name: 'Test Artwork'
+  id: 1
+  class: 'regular'
+  image:
+  description:
+  soundcloud_id:
