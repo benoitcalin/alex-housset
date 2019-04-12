@@ -1,0 +1,26 @@
+.artworks-wrapper {
+  width: 100vw;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.artworks-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.artist-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  border-bottom: 1px solid $light-gray;
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
