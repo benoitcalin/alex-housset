@@ -10,12 +10,24 @@
   <div class="artworks-inner-wrapper">
     <div class="artworks-index">
       <div class="grid">
-        <% for i in (1..48) do %>
-          <div class="artwork artwork-<%= i %>"><%= i %></div>
+
+        <% data.art.artworks.each do |artwork| %>
+          <a
+          href=""
+          class="artwork"
+          id="artwork-#{<%= artwork.id %>}"
+          style="<%= artwork.style %>">
+            <div class="miniature" style="background-image: url(<%= image_path 'test.jpg' %>)">
+              <div class="filter">
+                <h2><%= artwork.id %></h2>
+              </div>
+            </div>
+          </a>
         <% end %>
+
       </div>
-      <!-- Créer la CSS grid ici -->
     </div>
   </div>
-
 </div>
+
+
