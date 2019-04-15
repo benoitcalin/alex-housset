@@ -1,28 +1,31 @@
 artworks:
 
 # Grid row 1
-- name: 'Test Artwork 1'
+- name: 'Bottle Nigh'
   id: 1
   class: 'regular'
   style:  "grid-row: 1; grid-column: 1 / span 2"
-  image:
-  description:
+  image: '1-bottle_nigh-img.jpg'
+  texte: '1-bottle_nigh-txt.png'
+  title: 'bottle_nigh-title'
   soundcloud_id:
 
 - name: 'Test Artwork 2'
   id: 2
   class: 'regular'
   style:  "grid-row: 1; grid-column: 3 / span 2"
-  image:
-  description:
+  image: '2-bottle_was-img.jpg'
+  texte: '2-bottle_was-txt.png'
+  title: 'bottle_nigh-title'
   soundcloud_id:
 
 - name: 'Test Artwork 3'
   id: 3
   class: 'regular'
   style:  "grid-row: 1; grid-column: 5 / span 2"
-  image:
-  description:
+  image: '3-bottle_it-img.jpg'
+  texte: '3-bottle_it-txt.png'
+  title: 'bottle_nigh-title'
   soundcloud_id:
 
 # Grid row 2
