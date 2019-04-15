@@ -43,41 +43,45 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(18, 1fr);
   grid-gap: 15px;
-}
-
-a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0);
-  &:hover {
-    text-decoration: none;
-    color: white;
-  }
-}
-
-.artwork {
-  min-height: 350px;
-  border: 1px solid black;
-  display: flex;
-  align-items: strech;
+  margin: 20px 0;
 }
 
 .miniature {
-  flex-grow: 1;
-  background-repeat: no-repeat;
-  background-position: center;
-  &:hover {
-    cursor: pointer;
-  }
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 2px #e6e6e6;
+  cursor: pointer;
 }
 
-.filter {
+.miniature img {
+  width: 100%;
+}
+
+.miniature .filter {
+  // format
   width: 100%;
   height: 100%;
+  // flexbox
   display: flex;
-  align-items: center;
   justify-content: center;
-  &:hover {
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2));
+  align-items: center;
+  // color & opacity
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  // position absolute
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  h2 {
+    color: white;
+    font-size: 17px;
   }
 }
 
+.miniature:hover .filter {
+  opacity: 1;
+  transition-delay: 0s;
+  transition: 0.3s ease-in;
+}

@@ -14,17 +14,13 @@
         <% data.art.artworks.each do |artwork| %>
 
           <%# miniature images of the artworks %>
-          <a
-          href=""
-          class="artwork"
-          id="artwork-#{<%= artwork.id %>}"
-          style="<%= artwork.style %>">
-            <div class="miniature" style="background-image: url(<%= image_path 'test.jpg' %>)">
+            <div class="miniature" style="<%= artwork.style %>">
+              <%= image_tag artwork.image, alt: artwork.name, class: 'artwork', id: "artwork-#{artwork.id}" %>
+
               <div class="filter">
-                <h2><%= artwork.id %></h2>
+                <h2><%= artwork.name %></h2>
               </div>
             </div>
-          </a>
 
           <%# modal %>
 
