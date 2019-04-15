@@ -7,8 +7,34 @@
     </div>
   </div>
 
-  <div class="artworks-index">
-    <!-- Créer la CSS grid ici -->
-  </div>
+  <div class="artworks-inner-wrapper">
+    <div class="artworks-index">
+      <div class="grid">
 
+        <% data.art.artworks.each do |artwork| %>
+
+          <%# miniature images of the artworks %>
+          <a
+          href=""
+          class="artwork"
+          id="artwork-#{<%= artwork.id %>}"
+          style="<%= artwork.style %>">
+            <div class="miniature" style="background-image: url(<%= image_path 'test.jpg' %>)">
+              <div class="filter">
+                <h2><%= artwork.id %></h2>
+              </div>
+            </div>
+          </a>
+
+          <%# modal %>
+
+          <div class="modal"></div>
+
+        <% end %>
+
+      </div>
+    </div>
+  </div>
 </div>
+
+
