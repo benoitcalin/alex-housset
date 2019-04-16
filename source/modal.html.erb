@@ -1,0 +1,57 @@
+<div class="artworks-wrapper">
+
+  <div class="artworks-header">
+    <div class="artist-content">
+      <h1>Alex Housset</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni iure facilis consequatur eveniet fugiat laboriosam dolore itaque ratione alias ad.</p>
+    </div>
+  </div>
+
+  <div class="artworks-inner-wrapper">
+    <div class="artworks-index">
+      <div class="grid">
+
+        <% data.art.artworks.each do |artwork| %>
+
+          <%# miniature images of the artworks %>
+            <div class="miniature" style="<%= artwork.style %>" id="<%= artwork.id %>">
+              <%= image_tag artwork.image, alt: artwork.name, class: 'artwork', id: "artwork-#{artwork.id}" %>
+
+              <div class="filter">
+                <h2><%= artwork.name %></h2>
+              </div>
+            </div>
+
+          <%# modal %>
+
+          <div class="modal" id="modal-<%= artwork.id %>">
+
+            <div class="row">
+              <div class="col-sm">
+                <div class="modal-img">
+                  <%= image_tag artwork.image, alt: artwork.name %>
+                </div>
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+            </div>
+
+            <div class="modal-button">
+              <button type="button" class="btn btn-secondary" id="return-<%= artwork.id %>">
+                Retour aux oeuvres
+              </button>
+            </div>
+          </div>
+
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+

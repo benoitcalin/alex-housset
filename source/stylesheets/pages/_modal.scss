@@ -1,0 +1,30 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 200;
+
+  overflow: scroll;
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.modal-button {
+  position: fixed;
+  opacity: 0.6;
+  bottom: 40px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-img {
+  width: 800px;
+  img {
+    width: 100%;
+  }
+}
