@@ -7,7 +7,7 @@ artworks:
   style:  "grid-row: 1; grid-column: 1 / span 2"
   image: '1-bottle_nigh-img.jpg'
   texte: '1-bottle_nigh-txt.png'
-  title: 'bottle_nigh-title'
+  title: '1-bottle-title'
   soundcloud_id:
 
 - name: 'Test Artwork 2'
@@ -16,7 +16,7 @@ artworks:
   style:  "grid-row: 1; grid-column: 3 / span 2"
   image: '2-bottle_was-img.jpg'
   texte: '2-bottle_was-txt.png'
-  title: 'bottle_nigh-title'
+  title: '1-bottle-title'
   soundcloud_id:
 
 - name: 'Test Artwork 3'
@@ -25,7 +25,7 @@ artworks:
   style:  "grid-row: 1; grid-column: 5 / span 2"
   image: '3-bottle_it-img.jpg'
   texte: '3-bottle_it-txt.png'
-  title: 'bottle_nigh-title'
+  title: '1-bottle-title'
   soundcloud_id:
 
 # Grid row 2
