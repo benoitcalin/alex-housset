@@ -10,7 +10,7 @@ miniatures.forEach((miniature) => {
     const modal = document.getElementById(modalId);
 
     body.style.overflow = "hidden";
-    modal.style.display = "block";
+    modal.style.display = "flex";
 
     const btnId = 'return-'.concat(id);
     const btn = document.getElementById(btnId);

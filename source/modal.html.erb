@@ -25,7 +25,20 @@
           <%# modal %>
 
           <div class="modal" id="modal-<%= artwork.id %>">
-            Modale
+
+            <div class="row">
+              <div class="col-sm">
+                <div class="modal-img">
+                  <%= image_tag artwork.image, alt: artwork.name %>
+                </div>
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+            </div>
 
             <div class="modal-button">
               <button type="button" class="btn btn-secondary" id="return-<%= artwork.id %>">
