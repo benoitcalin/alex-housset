@@ -14,59 +14,19 @@
       <div class="grid">
 
         <% data.art.artworks.each do |artwork| %>
+        <% @artwork = artwork %>
 
-          <%# miniature images of the artworks %>
-            <div class="miniature" style="<%= artwork.style %>" id="<%= artwork.id %>">
-              <%= image_tag artwork.image, alt: artwork.name, class: 'artwork', id: "artwork-#{artwork.id}" %>
+        <%# miniature images of the artworks %>
+          <div class="miniature" style="<%= artwork.style %>" id="<%= artwork.id %>">
+            <%= image_tag artwork.image, alt: artwork.name, class: 'artwork', id: "artwork-#{artwork.id}" %>
 
-              <div class="filter">
-                <h2><%= artwork.name %></h2>
-              </div>
-            </div>
-
-          <%# modal %>
-
-          <div class="modal" id="modal-<%= artwork.id %>">
-            <div class="modal-background">
-
-              <div class="row">
-                <div class="col-sm">
-                  <div class="modal-img">
-                    <%= image_tag artwork.image, alt: artwork.name %>
-                  </div>
-                  <div class="modal-title">
-                    <%= image_tag artwork.title, alt: artwork.name %>
-                  </div>
-                </div>
-                <div class="col-sm">
-                  <div class="row">
-                    <div class="col-sm">
-                      <div class="modal-text">
-                        <%= image_tag artwork.texte, alt: artwork.name %>
-                      </div>
-                    </div>
-                    <div class="col-sm player">
-
-                      <%# Lecteur Soundcloud à customiser %>
-
-                      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
-                      src=https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&amp;{ ADD YOUR PARAMETERS HERE }">
-                      </iframe>
-
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="modal-button">
-                <button type="button" class="btn btn-secondary" id="return-<%= artwork.id %>">
-                  Retour aux oeuvres
-                </button>
-              </div>
-
+            <div class="filter">
+              <h2><%= artwork.name %></h2>
             </div>
           </div>
+
+          <%# modal %>
+          <%= partial "modal" %>
 
         <% end %>
 
