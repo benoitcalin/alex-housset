@@ -13,6 +13,10 @@
   justify-content: center;
 }
 
+.title {
+  max-width: 100%;
+}
+
 .artist-content {
   display: flex;
   flex-direction: column;
@@ -52,10 +56,15 @@
   text-align: center;
   box-shadow: 1px 1px 2px #e6e6e6;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+// ADD MEDIAQUERY SUR MAX HEIGHT
 .miniature img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 387px;
 }
 
 .miniature .filter {
