@@ -45,7 +45,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(18, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   grid-gap: 15px;
   margin: 20px 0;
 }
@@ -54,9 +54,7 @@
   overflow: hidden;
   position: relative;
   text-align: center;
-  // A supprimer une fois ok sur le format validé
-  box-shadow: 1px 1px 2px #e6e6e6;
-  // supprimer ligne dessus
+  // box-shadow: 1px 1px 2px #e6e6e6;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -66,7 +64,7 @@
 // ADD MEDIAQUERY SUR MAX HEIGHT
 .miniature img {
   max-width: 100%;
-  max-height: 387px;
+  max-height: 386px;
 }
 
 .miniature .filter {
