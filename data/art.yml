@@ -8,7 +8,7 @@ artworks:
   image: '1-bottle_nigh-img.jpg'
   texte: '1-bottle_nigh-txt.png'
   title: '0-bottle-title.png'
-  soundcloud_id:
+  soundcloud_url: 'https://soundcloud.com/word-alexhousset/like-a-jail'
 
 - name: 'Bottle Was'
   id: 2
@@ -17,7 +17,7 @@ artworks:
   image: '2-bottle_was-img.jpg'
   texte: '2-bottle_was-txt.png'
   title: '0-bottle-title.png'
-  soundcloud_id:
+  soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
 
 - name: 'Bottle It'
   id: 3
@@ -26,7 +26,7 @@ artworks:
   image: '3-bottle_it-img.jpg'
   texte: '3-bottle_it-txt.png'
   title: '0-bottle-title.png'
-  soundcloud_id:
+  soundcloud_url: 'https://soundcloud.com/word-alexhousset/lion-light'
 
 # Grid row 2
 - name: 'Bottle Friendship'
@@ -36,7 +36,7 @@ artworks:
   image: '4-bottle_friendship-img.jpg'
   texte:
   title: '0-bottle-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Bottle Sunman'
   id: 5
@@ -45,7 +45,7 @@ artworks:
   image: '5-bottle_sunman-img.jpg'
   texte: '5-bottle_sunman-txt.png'
   title: '0-bottle-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Bottle And It Wind'
   id: 6
@@ -54,7 +54,7 @@ artworks:
   image: '6-bottle_and_it_wind-img.jpg'
   texte: '6-bottle_and_it_wind-txt.png'
   title: '0-bottle-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 3
 - name: 'Moon Me'
@@ -64,14 +64,14 @@ artworks:
   image: '7-moon_me-img.jpg'
   texte: '7-moon_me-txt.png'
   title:
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Test Artwork 8'
   id: 8
   class: 'regular'
   style:  "grid-row: 3; grid-column: 3 / span 2"
   image:
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'They Are In'
   id: 9
@@ -80,7 +80,7 @@ artworks:
   image: '9-snake-img.jpg'
   texte: '9-snake-txt.png'
   title: '9-snake-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 4
 - name: 'Desire'
@@ -90,7 +90,7 @@ artworks:
   image: '10-desire-img.jpg'
   texte: '10-desire-txt.png'
   title: '10-desire-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Flightless Future'
   id: 11
@@ -100,7 +100,7 @@ artworks:
   title: '11-butterfly_sun-title.png'
   style:  "grid-row: 4; grid-column: 3 / span 2"
 
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Out Not Inside'
   id: 12
@@ -109,7 +109,7 @@ artworks:
   image: '12-out_not_in-img.jpg'
   texte: '12-out_not_in-txt.png'
   title: '12-out_not_in-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 5
 - name: 'Fuck A Book Read A Pussy'
@@ -119,7 +119,7 @@ artworks:
   image: '13-fuck_a_book-img.jpg'
   texte: '13-fuck_a_book-txt.png'
   title: '13-fuck_a_book-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Knight Light Jeanne Dark'
   id: 14
@@ -128,7 +128,7 @@ artworks:
   image: '14-KLJD-img.jpg'
   texte: '14-KLJD-txt.png'
   title: '14-KLJD-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'They Will Count'
   id: 15
@@ -137,7 +137,7 @@ artworks:
   image: '15-count-img.jpg'
   texte: '15-count-txt.png'
   title: '15-count-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 6
 - name: 'Black And Blue Turns Red'
@@ -147,7 +147,7 @@ artworks:
   image: '17-triptych-img.jpg'
   texte:
   title: '17-triptych-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 7
 - name: 'White Is It ?'
@@ -157,7 +157,7 @@ artworks:
   image: '16-white_is_it-img.jpg'
   texte: '16-white_is_it-txt.png'
   title: '16-white_is_it-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Impermanence For Life'
   id: 18
@@ -166,7 +166,7 @@ artworks:
   image: '18-candel-img.jpg'
   texte: '18-candel-txt.png'
   title: '18-candel-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 8
 - name: 'Check The Boxes'
@@ -176,7 +176,7 @@ artworks:
   image: '19-life-img.jpg'
   texte: '19-life-txt.png'
   title: '19-life-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: It's Not Equal You Dick
   id: 20
@@ -185,7 +185,7 @@ artworks:
   image: '20-scale-img.jpg'
   texte: '20-scale-txt.png'
   title: '20-scale-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 9
 - name: 'Dark Matter Mind And Nothing Nebulas'
@@ -195,7 +195,7 @@ artworks:
   image: '22-black_matter-img.jpg'
   texte:
   title: '22-black_matter-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 10
 - name: 'We Are A Forest I Am A Tree'
@@ -205,7 +205,7 @@ artworks:
   image: '21-buches-img.jpg'
   texte: '21-buches-txt.png'
   title: '21-buches-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'The Moon And Her Impostors'
   id: 23
@@ -214,7 +214,7 @@ artworks:
   image: '23-moon_imposter-img.jpg'
   texte:
   title: '23-moon_imposter-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Like A Jail'
   id: 24
@@ -223,7 +223,7 @@ artworks:
   image: '24-laj-img.jpg'
   texte: '24-laj-txt.png'
   title: '24-laj-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 # Grid row 11
 - name: 'Test Artwork 25'
@@ -231,7 +231,7 @@ artworks:
   class: 'regular'
   style:  "grid-row: 11; grid-column: 1 / span 2"
   image:
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'We Are A Forest I Am A Tree'
   id: 26
@@ -240,7 +240,7 @@ artworks:
   image: '26-lines-img.jpg'
   texte:
   title: '26-lines-title.png'
-  soundcloud_id:
+  soundcloud_url:
 
 - name: 'Eye Notes'
   id: 27
@@ -249,4 +249,4 @@ artworks:
   image: '27-eye_notes-img.jpg'
   texte:
   title: '27-eye_notes-title.png'
-  soundcloud_id:
+  soundcloud_url:
