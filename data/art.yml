@@ -7,7 +7,7 @@ artworks:
   style:  "grid-row: 1; grid-column: 1 / span 2"
   image: '1-bottle_nigh-img.jpg'
   texte: '1-bottle_nigh-txt.png'
-  title: '1-bottle-title.png'
+  title: '0-bottle-title.png'
   soundcloud_id:
 
 - name: 'Bottle Was'
@@ -16,7 +16,7 @@ artworks:
   style:  "grid-row: 1; grid-column: 3 / span 2"
   image: '2-bottle_was-img.jpg'
   texte: '2-bottle_was-txt.png'
-  title: '1-bottle-title.png'
+  title: '0-bottle-title.png'
   soundcloud_id:
 
 - name: 'Bottle It'
@@ -25,7 +25,7 @@ artworks:
   style:  "grid-row: 1; grid-column: 5 / span 2"
   image: '3-bottle_it-img.jpg'
   texte: '3-bottle_it-txt.png'
-  title: '1-bottle-title.png'
+  title: '0-bottle-title.png'
   soundcloud_id:
 
 # Grid row 2
@@ -35,7 +35,7 @@ artworks:
   style:  "grid-row: 2; grid-column: 1 / span 2"
   image: '4-bottle_friendship-img.jpg'
   texte:
-  title: '1-bottle-title.png'
+  title: '0-bottle-title.png'
   soundcloud_id:
 
 - name: 'Bottle Sunman'
@@ -44,7 +44,7 @@ artworks:
   style:  "grid-row: 2; grid-column: 3 / span 2"
   image: '5-bottle_sunman-img.jpg'
   texte: '5-bottle_sunman-txt.png'
-  title: '1-bottle-title.png'
+  title: '0-bottle-title.png'
   soundcloud_id:
 
 - name: 'Bottle And It Wind'
@@ -53,7 +53,7 @@ artworks:
   style:  "grid-row: 2; grid-column: 5 / span 2"
   image: '6-bottle_and_it_wind-img.jpg'
   texte: '6-bottle_and_it_wind-txt.png'
-  title: '1-bottle-title.png'
+  title: '0-bottle-title.png'
   soundcloud_id:
 
 # Grid row 3
