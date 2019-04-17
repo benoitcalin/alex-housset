@@ -2,10 +2,20 @@
 
   <div class="artworks-header">
     <div class="artist-content">
-      <div>
+      <div class='title-div'>
         <%= image_tag '0-name-title.png', alt: 'Alex Housset', class: 'title' %>
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni iure facilis consequatur eveniet fugiat laboriosam dolore itaque ratione alias ad.</p>
+      <div class="links">
+        <% link_to 'https://www.instagram.com/alexhousset/' do %>
+            <%= image_tag '0-instagram.png', alt: 'Alex Housset - Instagram' %>
+        <% end %>
+        <% link_to 'https://www.instagram.com/alexhousset/' do %>
+            <%= image_tag '0-contact.png', alt: 'Alex Housset - Contact' %>
+        <% end %>
+        <% link_to 'https://www.instagram.com/alexhousset/' do %>
+            <%= image_tag '0-exhibitions.png', alt: 'Alex Housset - Exhibitions' %>
+        <% end %>
+      </div>
     </div>
   </div>
 
