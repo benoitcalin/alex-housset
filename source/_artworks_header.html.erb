@@ -1,0 +1,41 @@
+<div class="artworks-header">
+    <div class="artist-content">
+      <div class='title-div'>
+        <%= image_tag '0-name-title.png', alt: 'Alex Housset', class: 'title' %>
+      </div>
+      <div class="links">
+        <!-- Link to Instagram -->
+        <% link_to 'https://www.instagram.com/alexhousset/' do %>
+            <%= image_tag '0-instagram.png', alt: 'Alex Housset - Instagram' %>
+        <% end %>
+
+        <!-- Link to Contact -->
+        <div class='dropdown-link'>
+          <% link_to '#collapseContact', role: 'button', data: { toggle: 'collapse' }, aria: { expanded: 'false', controls: '#collapseContact' } do %>
+              <%= image_tag '0-contact.png', alt: 'Alex Housset - Contact' %>
+          <% end %>
+
+          <div class="collapse" id="collapseContact">
+            <div class="card card-body">
+              <p>mail: exemple@exemple.com</p>
+              <p>tel: 0X.XX.XX.XX.XX</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Link to Exhibitions -->
+        <div class='dropdown-link'>
+          <% link_to '#collapseExhibitions', role: 'button', data: { toggle: 'collapse' }, aria: { expanded: 'false', controls: '#collapseExhibitions' } do %>
+              <%= image_tag '0-exhibitions.png', alt: 'Alex Housset - Exhibitions' %>
+          <% end %>
+
+          <div class="collapse" id="collapseExhibitions">
+            <div class="card card-body">
+              <p>Coming Soon!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>

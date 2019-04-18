@@ -1,23 +1,7 @@
 <div class="artworks-wrapper">
 
-  <div class="artworks-header">
-    <div class="artist-content">
-      <div class='title-div'>
-        <%= image_tag '0-name-title.png', alt: 'Alex Housset', class: 'title' %>
-      </div>
-      <div class="links">
-        <% link_to 'https://www.instagram.com/alexhousset/' do %>
-            <%= image_tag '0-instagram.png', alt: 'Alex Housset - Instagram' %>
-        <% end %>
-        <% link_to 'https://www.instagram.com/alexhousset/' do %>
-            <%= image_tag '0-contact.png', alt: 'Alex Housset - Contact' %>
-        <% end %>
-        <% link_to 'https://www.instagram.com/alexhousset/' do %>
-            <%= image_tag '0-exhibitions.png', alt: 'Alex Housset - Exhibitions' %>
-        <% end %>
-      </div>
-    </div>
-  </div>
+  <!-- Header -->
+  <%= partial "artworks_header" %>
 
   <div class="artworks-inner-wrapper">
     <div class="artworks-index">
@@ -26,7 +10,7 @@
         <% data.art.artworks.each do |artwork| %>
         <% @artwork = artwork %>
 
-        <%# miniature images of the artworks %>
+          <!-- Miniature images of the artworks -->
           <div class="miniature" style="<%= artwork.style %>" id="<%= artwork.id %>">
             <%= image_tag artwork.image, alt: artwork.name, class: 'artwork', id: "artwork-#{artwork.id}" %>
 
@@ -35,7 +19,7 @@
             </div>
           </div>
 
-          <%# modal %>
+          <!-- Modal -->
           <%= partial "modal" %>
 
         <% end %>
@@ -43,4 +27,5 @@
       </div>
     </div>
   </div>
+
 </div>
