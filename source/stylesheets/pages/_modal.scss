@@ -50,11 +50,21 @@
   }
 }
 
+@media (max-width: 840px) {
+  .modal-img {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
 .modal-title {
   display: flex;
   justify-content: center;
   align-items: center;
   img {
+    border: none;
     height: auto;
     width: 80%;
   }
@@ -63,11 +73,28 @@
 .modal-text {
   img {
     height: auto;
-    max-width: 80vw;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 640px) {
+  .modal-text {
+    img {
+      max-width: 100%;
+    }
   }
 }
 
 .player {
+  display: flex;
+  justify-content: center;
   min-width: 500px;
   margin: 10px 30px 80px 30px;
 }
+
+@media (max-width: 640px) {
+  .player {
+    max-width: 100%;
+  }
+}
+
