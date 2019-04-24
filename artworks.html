@@ -9,7 +9,7 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
 
-    <link href="stylesheets/application-bd8042cc.css" rel="stylesheet" />
+    <link href="stylesheets/application-522dc043.css" rel="stylesheet" />
 
     <!-- Uncomment this when you actually have a favicon.png in /images -->
   </head>
@@ -25,8 +25,25 @@
         <img src="images/0-name-title-76fe5616.png" alt="Alex Housset" class="title" />
       </div>
       <div class="links">
+        <!-- Link to Exhibitions -->
+
+        <div class='dropdown-link'>
+          <!-- Supprimer lorsque le bloc suivant est activé + css _artworks.scss lignes 54 à 68 -->
+<a href="">            <img src="images/0-exhibitions-b35dcf0a.png" alt="Alex Housset - Exhibitions" />
+</a>
+          <!-- Décommenter pour afficher le menu Exhibitions -->
+          <!-- 
+
+          <div class="collapse" id="collapseExhibitions">
+            <div class="card card-body">
+              <p>Coming Soon!</p>
+            </div>
+          </div> -->
+
+        </div>
+
         <!-- Link to Instagram -->
-<a href="https://www.instagram.com/alexhousset/">            <img src="images/0-instagram-a8c06afc.png" alt="Alex Housset - Instagram" />
+<a href="https://www.instagram.com/alexhousset/" target="_blank">            <img src="images/0-instagram-a8c06afc.png" alt="Alex Housset - Instagram" />
 </a>
         <!-- Link to Contact -->
         <div class='dropdown-link'>
@@ -40,24 +57,11 @@
           </div>
         </div>
 
-        <!-- Link to Exhibitions -->
-        <div class='dropdown-link'>
-<a href="#collapseExhibitions" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="#collapseExhibitions">              <img src="images/0-exhibitions-b35dcf0a.png" alt="Alex Housset - Exhibitions" />
-</a>
-          <div class="collapse" id="collapseExhibitions">
-            <div class="card card-body">
-              <p>Coming Soon!</p>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
 
 
-<a href="test.html">    <button class="btn btn-danger">TEST MODAL</button>
-</a>
   <div class="artworks-inner-wrapper">
     <div class="artworks-index">
       <div class="grid">
@@ -65,7 +69,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 1; grid-column: 1 / span 2" id="1">
-            <img src="images/1-img-f9c50073.jpg" alt="Bottle Nigh" class="artwork" id="artwork-1" />
+              <img src="images/1-img-f9c50073.jpg" alt="Bottle Nigh" class="artwork" id="artwork-1" />
 
             <div class="filter">
               <h2>Bottle Nigh</h2>
@@ -77,32 +81,41 @@
 <div class="modal" id="modal-1">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/1-img-f9c50073.jpg" alt="Bottle Nigh" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/1-title-39e1c5d2.png" alt="Bottle Nigh" />
+          </div>
+          <div class="modal-img">
+              <img src="images/1-img-f9c50073.jpg" alt="Bottle Nigh" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/1-title-7fdf2e19.png" alt="Bottle Nigh" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/1-txt-cf9891e7.png" alt="Bottle Nigh" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/1-txt-cf9891e7.png" alt="Bottle Nigh" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/like-a-jail&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-1">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-1">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -111,7 +124,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 1; grid-column: 3 / span 2" id="2">
-            <img src="images/2-img-22af6842.jpg" alt="Bottle Was" class="artwork" id="artwork-2" />
+              <img src="images/2-img-22af6842.jpg" alt="Bottle Was" class="artwork" id="artwork-2" />
 
             <div class="filter">
               <h2>Bottle Was</h2>
@@ -123,32 +136,41 @@
 <div class="modal" id="modal-2">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/2-img-22af6842.jpg" alt="Bottle Was" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/1-title-39e1c5d2.png" alt="Bottle Was" />
+          </div>
+          <div class="modal-img">
+              <img src="images/2-img-22af6842.jpg" alt="Bottle Was" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/1-title-7fdf2e19.png" alt="Bottle Was" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/2-txt-8952c377.png" alt="Bottle Was" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/2-txt-8952c377.png" alt="Bottle Was" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-2">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-2">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -157,7 +179,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 1; grid-column: 5 / span 2" id="3">
-            <img src="images/3-img-1c24a2cd.jpg" alt="Bottle It" class="artwork" id="artwork-3" />
+              <img src="images/3-img-1c24a2cd.jpg" alt="Bottle It" class="artwork" id="artwork-3" />
 
             <div class="filter">
               <h2>Bottle It</h2>
@@ -169,32 +191,41 @@
 <div class="modal" id="modal-3">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/3-img-1c24a2cd.jpg" alt="Bottle It" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/1-title-39e1c5d2.png" alt="Bottle It" />
+          </div>
+          <div class="modal-img">
+              <img src="images/3-img-1c24a2cd.jpg" alt="Bottle It" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/1-title-7fdf2e19.png" alt="Bottle It" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/3-txt-702e9878.png" alt="Bottle It" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/3-txt-702e9878.png" alt="Bottle It" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/lion-light&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-3">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-3">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -203,7 +234,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 2; grid-column: 1 / span 2" id="4">
-            <img src="images/4-img-24999b7d.jpg" alt="Bottle Friendship" class="artwork" id="artwork-4" />
+              <img src="images/4-img-24999b7d.jpg" alt="Bottle Friendship" class="artwork" id="artwork-4" />
 
             <div class="filter">
               <h2>Bottle Friendship</h2>
@@ -215,32 +246,35 @@
 <div class="modal" id="modal-4">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/4-img-24999b7d.jpg" alt="Bottle Friendship" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3" >
+          <div class="modal-title">
+            <img src="images/1-title-39e1c5d2.png" alt="Bottle Friendship" />
+          </div>
+          <div class="modal-img">
+              <img src="images/4-img-24999b7d.jpg" alt="Bottle Friendship" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/1-title-7fdf2e19.png" alt="Bottle Friendship" />
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/" alt="Bottle Friendship" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-4">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-4">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -249,7 +283,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 2; grid-column: 3 / span 2" id="5">
-            <img src="images/5-img-08f87a82.jpg" alt="Bottle Sunman" class="artwork" id="artwork-5" />
+              <img src="images/5-img-08f87a82.jpg" alt="Bottle Sunman" class="artwork" id="artwork-5" />
 
             <div class="filter">
               <h2>Bottle Sunman</h2>
@@ -261,32 +295,41 @@
 <div class="modal" id="modal-5">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/5-img-08f87a82.jpg" alt="Bottle Sunman" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/1-title-39e1c5d2.png" alt="Bottle Sunman" />
+          </div>
+          <div class="modal-img">
+              <img src="images/5-img-08f87a82.jpg" alt="Bottle Sunman" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/1-title-7fdf2e19.png" alt="Bottle Sunman" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/5-txt-b5dd41bc.png" alt="Bottle Sunman" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/5-txt-b5dd41bc.png" alt="Bottle Sunman" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-5">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-5">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -295,7 +338,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 2; grid-column: 5 / span 2" id="6">
-            <img src="images/6-img-761a6d6e.jpg" alt="Bottle And It Wind" class="artwork" id="artwork-6" />
+              <img src="images/6-img-761a6d6e.jpg" alt="Bottle And It Wind" class="artwork" id="artwork-6" />
 
             <div class="filter">
               <h2>Bottle And It Wind</h2>
@@ -307,32 +350,41 @@
 <div class="modal" id="modal-6">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/6-img-761a6d6e.jpg" alt="Bottle And It Wind" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/1-title-39e1c5d2.png" alt="Bottle And It Wind" />
+          </div>
+          <div class="modal-img">
+              <img src="images/6-img-761a6d6e.jpg" alt="Bottle And It Wind" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/1-title-7fdf2e19.png" alt="Bottle And It Wind" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/6-txt-fe336db2.png" alt="Bottle And It Wind" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/6-txt-fe336db2.png" alt="Bottle And It Wind" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-6">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-6">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -341,7 +393,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 3; grid-column: 1 / span 2" id="7">
-            <img src="images/7-img-cdfc72a1.jpg" alt="Moon Me" class="artwork" id="artwork-7" />
+              <img src="images/7-img-cdfc72a1.jpg" alt="Moon Me" class="artwork" id="artwork-7" />
 
             <div class="filter">
               <h2>Moon Me</h2>
@@ -353,32 +405,66 @@
 <div class="modal" id="modal-7">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/7-img-cdfc72a1.jpg" alt="Moon Me" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/" alt="Moon Me" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-7" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-7" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-7" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/7-img-cdfc72a1.jpg" alt="Moon Me" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/" alt="Moon Me" />
+        <div class="carousel-item">
+          <img src="images/7-img2-029a1d33.jpg" alt="Moon Me" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/7-txt-c40dfb35.png" alt="Moon Me" />
+  </div>
+  <a class="carousel-control-prev" href="#carousel-7" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-7" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
         </div>
-      </div>
-      <div class="col-sm player">
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/7-txt-c40dfb35.png" alt="Moon Me" />
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-7">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-7">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -387,7 +473,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 3; grid-column: 3 / span 2" id="8">
-            <img src="images/" alt="Test Artwork 8" class="artwork" id="artwork-8" />
+              <img src="images/" alt="Test Artwork 8" class="artwork" id="artwork-8" />
 
             <div class="filter">
               <h2>Test Artwork 8</h2>
@@ -399,32 +485,52 @@
 <div class="modal" id="modal-8">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/" alt="Test Artwork 8" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/" alt="Test Artwork 8" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-8" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+
+  </ol>
+  <div class="carousel-inner">
+  </div>
+  <a class="carousel-control-prev" href="#carousel-8" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-8" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/" alt="Test Artwork 8" />
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/" alt="Test Artwork 8" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/white-is-it&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-8">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-8">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -433,7 +539,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 3; grid-column: 5 / span 2" id="9">
-            <img src="images/9-img-900b0fa5.jpg" alt="They Are In" class="artwork" id="artwork-9" />
+              <img src="images/9-img-900b0fa5.jpg" alt="They Are In" class="artwork" id="artwork-9" />
 
             <div class="filter">
               <h2>They Are In</h2>
@@ -445,32 +551,41 @@
 <div class="modal" id="modal-9">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/9-img-900b0fa5.jpg" alt="They Are In" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/9-title-c93f1933.png" alt="They Are In" />
+          </div>
+          <div class="modal-img">
+              <img src="images/9-img-900b0fa5.jpg" alt="They Are In" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/9-title-9149c252.png" alt="They Are In" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/9-txt-ce81ee20.png" alt="They Are In" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/9-txt-ce81ee20.png" alt="They Are In" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-9">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-9">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -479,7 +594,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 4; grid-column: 1 / span 2" id="10">
-            <img src="images/10-img-085f3492.jpg" alt="Desire" class="artwork" id="artwork-10" />
+              <img src="images/10-img-085f3492.jpg" alt="Desire" class="artwork" id="artwork-10" />
 
             <div class="filter">
               <h2>Desire</h2>
@@ -491,32 +606,41 @@
 <div class="modal" id="modal-10">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/10-img-085f3492.jpg" alt="Desire" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/10-title-7244abe8.png" alt="Desire" />
+          </div>
+          <div class="modal-img">
+              <img src="images/10-img-085f3492.jpg" alt="Desire" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/10-title-1c80961b.png" alt="Desire" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/10-txt-e9b99f68.png" alt="Desire" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/10-txt-e9b99f68.png" alt="Desire" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-10">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-10">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -525,7 +649,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 4; grid-column: 3 / span 2" id="11">
-            <img src="images/11-img-2696723c.jpg" alt="Flightless Future" class="artwork" id="artwork-11" />
+              <img src="images/11-img-2696723c.jpg" alt="Flightless Future" class="artwork" id="artwork-11" />
 
             <div class="filter">
               <h2>Flightless Future</h2>
@@ -537,32 +661,41 @@
 <div class="modal" id="modal-11">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/11-img-2696723c.jpg" alt="Flightless Future" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/11-title-ddc8033a.png" alt="Flightless Future" />
+          </div>
+          <div class="modal-img">
+              <img src="images/11-img-2696723c.jpg" alt="Flightless Future" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/11-title-9a108353.png" alt="Flightless Future" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/11-txt-3ff66794.png" alt="Flightless Future" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/11-txt-3ff66794.png" alt="Flightless Future" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-11">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-11">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -571,7 +704,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 4; grid-column: 5 / span 2" id="12">
-            <img src="images/12-img-01afe6a3.jpg" alt="Out Not Inside" class="artwork" id="artwork-12" />
+              <img src="images/12-img-01afe6a3.jpg" alt="Out Not Inside" class="artwork" id="artwork-12" />
 
             <div class="filter">
               <h2>Out Not Inside</h2>
@@ -583,32 +716,41 @@
 <div class="modal" id="modal-12">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/12-img-01afe6a3.jpg" alt="Out Not Inside" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/12-title-758a259e.png" alt="Out Not Inside" />
+          </div>
+          <div class="modal-img">
+              <img src="images/12-img-01afe6a3.jpg" alt="Out Not Inside" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/12-title-5fec000b.png" alt="Out Not Inside" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/12-txt-8aede713.png" alt="Out Not Inside" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/12-txt-8aede713.png" alt="Out Not Inside" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-12">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-12">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -617,7 +759,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 5; grid-column: 1 / span 2" id="13">
-            <img src="images/13-img-ce16440d.jpg" alt="Fuck A Book Read A Pussy" class="artwork" id="artwork-13" />
+              <img src="images/13-img-ce16440d.jpg" alt="Fuck A Book Read A Pussy" class="artwork" id="artwork-13" />
 
             <div class="filter">
               <h2>Fuck A Book Read A Pussy</h2>
@@ -629,32 +771,41 @@
 <div class="modal" id="modal-13">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/13-img-ce16440d.jpg" alt="Fuck A Book Read A Pussy" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/13-title-631e17e0.png" alt="Fuck A Book Read A Pussy" />
+          </div>
+          <div class="modal-img">
+              <img src="images/13-img-ce16440d.jpg" alt="Fuck A Book Read A Pussy" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/13-title-d70963f4.png" alt="Fuck A Book Read A Pussy" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/13-txt-ec4076c9.png" alt="Fuck A Book Read A Pussy" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/13-txt-ec4076c9.png" alt="Fuck A Book Read A Pussy" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-13">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-13">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -663,7 +814,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 5; grid-column: 3 / span 2" id="14">
-            <img src="images/14-img-835a3192.jpg" alt="Knight Light Jeanne Dark" class="artwork" id="artwork-14" />
+              <img src="images/14-img-835a3192.jpg" alt="Knight Light Jeanne Dark" class="artwork" id="artwork-14" />
 
             <div class="filter">
               <h2>Knight Light Jeanne Dark</h2>
@@ -675,32 +826,66 @@
 <div class="modal" id="modal-14">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/14-img-835a3192.jpg" alt="Knight Light Jeanne Dark" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/14-title-1f9ffe08.png" alt="Knight Light Jeanne Dark" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-14" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-14" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-14" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/14-img-835a3192.jpg" alt="Knight Light Jeanne Dark" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/14-title-6ba583c1.png" alt="Knight Light Jeanne Dark" />
+        <div class="carousel-item">
+          <img src="images/14-img2-58ac1d7a.jpg" alt="Knight Light Jeanne Dark" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/14-txt-81883efa.png" alt="Knight Light Jeanne Dark" />
+  </div>
+  <a class="carousel-control-prev" href="#carousel-14" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-14" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
         </div>
-      </div>
-      <div class="col-sm player">
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/14-txt-81883efa.png" alt="Knight Light Jeanne Dark" />
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-14">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-14">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -709,7 +894,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 5; grid-column: 5 / span 2" id="15">
-            <img src="images/15-img-d960a0ae.jpg" alt="They Will Count" class="artwork" id="artwork-15" />
+              <img src="images/15-img-d960a0ae.jpg" alt="They Will Count" class="artwork" id="artwork-15" />
 
             <div class="filter">
               <h2>They Will Count</h2>
@@ -721,32 +906,41 @@
 <div class="modal" id="modal-15">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/15-img-d960a0ae.jpg" alt="They Will Count" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/15-title-eed4f08e.png" alt="They Will Count" />
+          </div>
+          <div class="modal-img">
+              <img src="images/15-img-d960a0ae.jpg" alt="They Will Count" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/15-title-83e64e3d.png" alt="They Will Count" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/15-txt-5151e8d8.png" alt="They Will Count" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/15-txt-5151e8d8.png" alt="They Will Count" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-15">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-15">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -755,7 +949,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 6; grid-column: 1 / span 6" id="17">
-            <img src="images/17-img-4779ca21.jpg" alt="Black And Blue Turns Red" class="artwork" id="artwork-17" />
+              <img src="images/17-img-4779ca21.jpg" alt="Black And Blue Turns Red" class="artwork" id="artwork-17" />
 
             <div class="filter">
               <h2>Black And Blue Turns Red</h2>
@@ -767,32 +961,64 @@
 <div class="modal" id="modal-17">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/17-img-4779ca21.jpg" alt="Black And Blue Turns Red" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12" >
+          <div class="modal-title">
+            <img src="images/17-title-387980c2.png" alt="Black And Blue Turns Red" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-17" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-17" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-17" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-17" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/17-img-4779ca21.jpg" alt="Black And Blue Turns Red" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/17-title-adf5cb79.png" alt="Black And Blue Turns Red" />
+        <div class="carousel-item">
+          <img src="images/17-img2-ad23af31.jpg" alt="Black And Blue Turns Red" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/" alt="Black And Blue Turns Red" />
+        <div class="carousel-item">
+          <img src="images/17-img3-3b61143d.jpg" alt="Black And Blue Turns Red" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm player">
+  </div>
+  <a class="carousel-control-prev" href="#carousel-17" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-17" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-17">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-17">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -801,7 +1027,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 7; grid-column: 1 / span 2" id="16">
-            <img src="images/16-img-82f8d4fe.jpg" alt="White Is It ?" class="artwork" id="artwork-16" />
+              <img src="images/16-img-82f8d4fe.jpg" alt="White Is It ?" class="artwork" id="artwork-16" />
 
             <div class="filter">
               <h2>White Is It ?</h2>
@@ -813,32 +1039,78 @@
 <div class="modal" id="modal-16">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/16-img-82f8d4fe.jpg" alt="White Is It ?" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/16-title-0dba71c0.png" alt="White Is It ?" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-16" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-16" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-16" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-16" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-16" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-16" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/16-img-82f8d4fe.jpg" alt="White Is It ?" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/16-title-d01fa482.png" alt="White Is It ?" />
+        <div class="carousel-item">
+          <img src="images/16-img2-07b7da3b.jpg" alt="White Is It ?" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/16-txt-8407ad2d.png" alt="White Is It ?" />
+        <div class="carousel-item">
+          <img src="images/16-img3-03543c80.jpg" alt="White Is It ?" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm player">
+        <div class="carousel-item">
+          <img src="images/16-img4-3822d849.jpg" alt="White Is It ?" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/16-img5-13e09513.jpg" alt="White Is It ?" class="d-block w-100" />
+        </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel-16" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-16" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/16-txt-8407ad2d.png" alt="White Is It ?" />
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-16">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-16">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -847,7 +1119,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 7; grid-column: 3 / span 4" id="18">
-            <img src="images/18-img-45430785.jpg" alt="Impermanence For Life" class="artwork" id="artwork-18" />
+              <img src="images/18-img-45430785.jpg" alt="Impermanence For Life" class="artwork" id="artwork-18" />
 
             <div class="filter">
               <h2>Impermanence For Life</h2>
@@ -859,32 +1131,66 @@
 <div class="modal" id="modal-18">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/18-img-45430785.jpg" alt="Impermanence For Life" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/18-title-20a90498.png" alt="Impermanence For Life" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-18" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-18" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-18" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/18-img-45430785.jpg" alt="Impermanence For Life" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/18-title-02aa0838.png" alt="Impermanence For Life" />
+        <div class="carousel-item">
+          <img src="images/18-img2-8dd4b39e.jpg" alt="Impermanence For Life" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/18-txt-08cfa0c9.png" alt="Impermanence For Life" />
+  </div>
+  <a class="carousel-control-prev" href="#carousel-18" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-18" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
         </div>
-      </div>
-      <div class="col-sm player">
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/18-txt-08cfa0c9.png" alt="Impermanence For Life" />
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-18">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-18">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -893,7 +1199,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 8; grid-column: 1 / span 3" id="19">
-            <img src="images/19-img-d90f3c23.jpg" alt="Check The Boxes" class="artwork" id="artwork-19" />
+              <img src="images/19-img-d90f3c23.jpg" alt="Check The Boxes" class="artwork" id="artwork-19" />
 
             <div class="filter">
               <h2>Check The Boxes</h2>
@@ -905,32 +1211,66 @@
 <div class="modal" id="modal-19">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/19-img-d90f3c23.jpg" alt="Check The Boxes" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/19-title-e85dbcb9.png" alt="Check The Boxes" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-19" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-19" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-19" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/19-img-d90f3c23.jpg" alt="Check The Boxes" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/19-title-87a72c09.png" alt="Check The Boxes" />
+        <div class="carousel-item">
+          <img src="images/19-img2-cac558bc.jpg" alt="Check The Boxes" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/19-txt-bffed499.png" alt="Check The Boxes" />
+  </div>
+  <a class="carousel-control-prev" href="#carousel-19" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-19" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
         </div>
-      </div>
-      <div class="col-sm player">
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/19-txt-bffed499.png" alt="Check The Boxes" />
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-19">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-19">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -939,7 +1279,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 8; grid-column: 4 / span 3" id="20">
-            <img src="images/20-img-4368acb0.jpg" alt="It's Not Equal You Dick" class="artwork" id="artwork-20" />
+              <img src="images/20-img-4368acb0.jpg" alt="It's Not Equal You Dick" class="artwork" id="artwork-20" />
 
             <div class="filter">
               <h2>It's Not Equal You Dick</h2>
@@ -951,32 +1291,70 @@
 <div class="modal" id="modal-20">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/20-img-4368acb0.jpg" alt="It's Not Equal You Dick" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/20-title-78be9a3f.png" alt="It's Not Equal You Dick" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-20" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-20" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-20" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-20" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/20-img-4368acb0.jpg" alt="It's Not Equal You Dick" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/20-title-d5380a56.png" alt="It's Not Equal You Dick" />
+        <div class="carousel-item">
+          <img src="images/20-img2-3acf0607.jpg" alt="It's Not Equal You Dick" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/20-txt-39610417.png" alt="It's Not Equal You Dick" />
+        <div class="carousel-item">
+          <img src="images/20-img3-0f5ddd53.jpg" alt="It's Not Equal You Dick" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm player">
+  </div>
+  <a class="carousel-control-prev" href="#carousel-20" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-20" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/20-txt-39610417.png" alt="It's Not Equal You Dick" />
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-20">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-20">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -985,7 +1363,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 9; grid-column: 1 / span 6" id="22">
-            <img src="images/22-img-a1ff0f6f.jpg" alt="Dark Matter Mind And Nothing Nebulas" class="artwork" id="artwork-22" />
+              <img src="images/22-img-a1ff0f6f.jpg" alt="Dark Matter Mind And Nothing Nebulas" class="artwork" id="artwork-22" />
 
             <div class="filter">
               <h2>Dark Matter Mind And Nothing Nebulas</h2>
@@ -997,32 +1375,35 @@
 <div class="modal" id="modal-22">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/22-img-a1ff0f6f.jpg" alt="Dark Matter Mind And Nothing Nebulas" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12" >
+          <div class="modal-title">
+            <img src="images/22-title-3dc8fb51.png" alt="Dark Matter Mind And Nothing Nebulas" />
+          </div>
+          <div class="modal-img">
+              <img src="images/22-img-a1ff0f6f.jpg" alt="Dark Matter Mind And Nothing Nebulas" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/22-title-407d4b09.png" alt="Dark Matter Mind And Nothing Nebulas" />
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/" alt="Dark Matter Mind And Nothing Nebulas" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-22">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-22">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -1031,7 +1412,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 10; grid-column: 1 / span 2" id="21">
-            <img src="images/21-img-1c4464d8.jpg" alt="We Are A Forest I Am A Tree" class="artwork" id="artwork-21" />
+              <img src="images/21-img-1c4464d8.jpg" alt="We Are A Forest I Am A Tree" class="artwork" id="artwork-21" />
 
             <div class="filter">
               <h2>We Are A Forest I Am A Tree</h2>
@@ -1043,32 +1424,41 @@
 <div class="modal" id="modal-21">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/21-img-1c4464d8.jpg" alt="We Are A Forest I Am A Tree" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/21-title-7e091ebd.png" alt="We Are A Forest I Am A Tree" />
+          </div>
+          <div class="modal-img">
+              <img src="images/21-img-1c4464d8.jpg" alt="We Are A Forest I Am A Tree" />
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/21-title-c16a91e2.png" alt="We Are A Forest I Am A Tree" />
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/21-txt-6630e935.png" alt="We Are A Forest I Am A Tree" />
+          </div>
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/21-txt-6630e935.png" alt="We Are A Forest I Am A Tree" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-21">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-21">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -1077,7 +1467,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 10; grid-column: 3 / span 2" id="23">
-            <img src="images/23-img-f71d6251.jpg" alt="The Moon And Her Impostors" class="artwork" id="artwork-23" />
+              <img src="images/23-img-f71d6251.jpg" alt="The Moon And Her Impostors" class="artwork" id="artwork-23" />
 
             <div class="filter">
               <h2>The Moon And Her Impostors</h2>
@@ -1089,32 +1479,80 @@
 <div class="modal" id="modal-23">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/23-img-f71d6251.jpg" alt="The Moon And Her Impostors" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3" >
+          <div class="modal-title">
+            <img src="images/23-title-424c3ed7.png" alt="The Moon And Her Impostors" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-23" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-23" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-23" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-23" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-23" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-23" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-23" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-23" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/23-img-f71d6251.jpg" alt="The Moon And Her Impostors" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/23-title-b364f00a.png" alt="The Moon And Her Impostors" />
+        <div class="carousel-item">
+          <img src="images/23-img2-81841af0.jpg" alt="The Moon And Her Impostors" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/" alt="The Moon And Her Impostors" />
+        <div class="carousel-item">
+          <img src="images/23-img3-610f8ba6.jpg" alt="The Moon And Her Impostors" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm player">
+        <div class="carousel-item">
+          <img src="images/23-img4-d3e68011.jpg" alt="The Moon And Her Impostors" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/23-img5-330e66a5.jpg" alt="The Moon And Her Impostors" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/23-img6-9e0d0a96.jpg" alt="The Moon And Her Impostors" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/23-img7-92c72c47.jpg" alt="The Moon And Her Impostors" class="d-block w-100" />
+        </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel-23" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-23" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-23">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-23">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -1123,7 +1561,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 10; grid-column: 5 / span 2" id="24">
-            <img src="images/24-img-0eb9e2a1.jpg" alt="Like A Jail" class="artwork" id="artwork-24" />
+              <img src="images/24-img-0eb9e2a1.jpg" alt="Like A Jail" class="artwork" id="artwork-24" />
 
             <div class="filter">
               <h2>Like A Jail</h2>
@@ -1135,32 +1573,82 @@
 <div class="modal" id="modal-24">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/24-img-0eb9e2a1.jpg" alt="Like A Jail" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/24-title-f52e5115.png" alt="Like A Jail" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-24" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-24" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-24" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-24" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-24" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-24" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-24" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/24-img-0eb9e2a1.jpg" alt="Like A Jail" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/24-title-96384ef8.png" alt="Like A Jail" />
+        <div class="carousel-item">
+          <img src="images/24-img2-49cf191d.jpg" alt="Like A Jail" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/24-txt-5fbf7c35.png" alt="Like A Jail" />
+        <div class="carousel-item">
+          <img src="images/24-img3-fd44bbc7.jpg" alt="Like A Jail" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm player">
+        <div class="carousel-item">
+          <img src="images/24-img4-832055bf.jpg" alt="Like A Jail" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/24-img5-77b85797.jpg" alt="Like A Jail" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/24-img6-77b85797.jpg" alt="Like A Jail" class="d-block w-100" />
+        </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel-24" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-24" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 centered-text">
+          <div class="modal-text">
+            <img src="images/24-txt-5fbf7c35.png" alt="Like A Jail" />
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-24">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-24">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -1169,7 +1657,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 11; grid-column: 1 / span 2" id="25">
-            <img src="images/" alt="Test Artwork 25" class="artwork" id="artwork-25" />
+              <img src="images/" alt="Test Artwork 25" class="artwork" id="artwork-25" />
 
             <div class="filter">
               <h2>Test Artwork 25</h2>
@@ -1181,32 +1669,52 @@
 <div class="modal" id="modal-25">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/" alt="Test Artwork 25" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6" >
+          <div class="modal-title">
+            <img src="images/" alt="Test Artwork 25" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-25" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+
+  </ol>
+  <div class="carousel-inner">
+  </div>
+  <a class="carousel-control-prev" href="#carousel-25" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-25" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
         </div>
-        <div class="modal-title">
-          <img src="images/" alt="Test Artwork 25" />
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/" alt="Test Artwork 25" />
-        </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/white-is-it&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-25">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-25">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -1215,7 +1723,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 11; grid-column: 3 / span 2" id="26">
-            <img src="images/26-img-bbedeb02.jpg" alt="We Are A Forest I Am A Tree" class="artwork" id="artwork-26" />
+              <img src="images/26-img-bbedeb02.jpg" alt="We Are A Forest I Am A Tree" class="artwork" id="artwork-26" />
 
             <div class="filter">
               <h2>We Are A Forest I Am A Tree</h2>
@@ -1227,32 +1735,60 @@
 <div class="modal" id="modal-26">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/26-img-bbedeb02.jpg" alt="We Are A Forest I Am A Tree" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3" >
+          <div class="modal-title">
+            <img src="images/26-title-7e091ebd.png" alt="We Are A Forest I Am A Tree" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-26" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-26" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-26" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/26-img-bbedeb02.jpg" alt="We Are A Forest I Am A Tree" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/26-title-20112f0f.png" alt="We Are A Forest I Am A Tree" />
+        <div class="carousel-item">
+          <img src="images/26-img2-a9d2ce56.jpg" alt="We Are A Forest I Am A Tree" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/" alt="We Are A Forest I Am A Tree" />
+  </div>
+  <a class="carousel-control-prev" href="#carousel-26" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-26" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
         </div>
-      </div>
-      <div class="col-sm player">
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-26">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-26">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
@@ -1261,7 +1797,7 @@
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="grid-row: 11; grid-column: 5 / span 2" id="27">
-            <img src="images/27-img-af7cf9cc.jpg" alt="Eye Notes" class="artwork" id="artwork-27" />
+              <img src="images/27-img-af7cf9cc.jpg" alt="Eye Notes" class="artwork" id="artwork-27" />
 
             <div class="filter">
               <h2>Eye Notes</h2>
@@ -1273,32 +1809,116 @@
 <div class="modal" id="modal-27">
   <div class="modal-background">
 
-    <div class="row">
-      <div class="col-sm">
-        <div class="modal-img">
-          <img src="images/27-img-af7cf9cc.jpg" alt="Eye Notes" />
+    <div class="row modal-row">
+
+
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3" >
+          <div class="modal-title">
+            <img src="images/27-title-f90df1cb.png" alt="Eye Notes" />
+          </div>
+          <div class="modal-img">
+              
+<div id="carousel-27" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+
+        <li data-target="#carousel-27" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+        <li data-target="#carousel-27" data-slide-to="#{index}"></li>
+
+  </ol>
+  <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/27-img-af7cf9cc.jpg" alt="Eye Notes" class="d-block w-100" />
         </div>
-        <div class="modal-title">
-          <img src="images/27-title-dddf17a4.png" alt="Eye Notes" />
+        <div class="carousel-item">
+          <img src="images/27-img2-83210981.jpg" alt="Eye Notes" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm">
-        <div class="modal-text">
-          <img src="images/" alt="Eye Notes" />
+        <div class="carousel-item">
+          <img src="images/27-img3-c04c17bd.jpg" alt="Eye Notes" class="d-block w-100" />
         </div>
-      </div>
-      <div class="col-sm player">
+        <div class="carousel-item">
+          <img src="images/27-img4-30ab6465.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img5-547c792c.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img6-064be1fd.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img7-5bbb8efd.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img8-08dbbb3d.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img9-ab88c1b7.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img10-4433d836.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img11-e85a5cbd.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img12-ea4aa7b4.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img13-c3a3443c.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img14-5836193c.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img15-5db7a360.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="images/27-img16-1102a0da.jpg" alt="Eye Notes" class="d-block w-100" />
+        </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel-27" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-27" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row modal-row">
+      <div class="col-sm modal-col player">
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https://soundcloud.com/word-alexhousset/fog&amp;{ auto_play=true }">
         </iframe>
       </div>
+
     </div>
 
-    <div class="modal-button">
-      <button type="button" class="btn btn-secondary" id="return-27">
-        Retour aux oeuvres
-      </button>
+    <!-- Bouton retour -->
+    <div class="modal-button" id="return-27">
+
+      <img src="images/return-d2ac54b4.png" alt="Retour aux oeuvres" />
+
     </div>
   </div>
 </div>
