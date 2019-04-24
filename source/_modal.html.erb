@@ -4,25 +4,46 @@
   <div class="modal-background">
 
     <div class="row modal-row">
-      <div class="col-xs-12 col-sm-6 modal-col">
-        <div class="modal-title">
-          <%= image_tag artwork.title, alt: artwork.name %>
-        </div>
-        <div class="modal-img">
-          <% if artwork.nb_images == 1 %>
-            <%= image_tag artwork.image, alt: artwork.name %>
-          <% else %>
-            <%= partial 'carousel' %>
-          <% end %>
 
-        </div>
-      </div>
+      <% if artwork.texte.nil? %>
 
-      <div class="col-xs-12 col-sm-6 modal-col">
-        <div class="modal-text">
-          <%= image_tag artwork.texte, alt: artwork.name %>
+        <div class="<%= artwork.col_class %>" >
+          <div class="modal-title">
+            <%= image_tag artwork.title, alt: artwork.name %>
+          </div>
+          <div class="modal-img">
+            <% if artwork.nb_images == 1 %>
+              <%= image_tag artwork.image, alt: artwork.name %>
+            <% else %>
+              <%= partial 'carousel' %>
+            <% end %>
+          </div>
         </div>
-      </div>
+
+      <% else %>
+
+        <div class="<%= artwork.col_class %>" >
+          <div class="modal-title">
+            <%= image_tag artwork.title, alt: artwork.name %>
+          </div>
+          <div class="modal-img">
+            <% if artwork.id == 22 %>
+              <%= image_tag artwork.image, class: "#{artwork.img_class}", alt: artwork.name %>
+            <% elsif artwork.nb_images == 1 %>
+              <%= image_tag artwork.image, alt: artwork.name %>
+            <% else %>
+              <%= partial 'carousel' %>
+            <% end %>
+          </div>
+        </div>
+
+        <div class="<%= artwork.col_class %> centered-text">
+          <div class="modal-text">
+            <%= image_tag artwork.texte, alt: artwork.name %>
+          </div>
+        </div>
+
+      <% end %>
     </div>
 
     <div class="row modal-row">
