@@ -3,7 +3,7 @@ artworks:
 # Grid row 1
 - name: 'Bottle Nigh'
   id: 1
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 1; grid-column: 1 / span 2"
   image: '1-img.jpg'
   texte: '1-txt.png'
@@ -13,7 +13,7 @@ artworks:
 
 - name: 'Bottle Was'
   id: 2
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 1; grid-column: 3 / span 2"
   image: '2-img.jpg'
   texte: '2-txt.png'
@@ -23,7 +23,7 @@ artworks:
 
 - name: 'Bottle It'
   id: 3
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 1; grid-column: 5 / span 2"
   image: '3-img.jpg'
   texte: '3-txt.png'
@@ -34,7 +34,7 @@ artworks:
 # Grid row 2
 - name: 'Bottle Friendship'
   id: 4
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6 col-sm-offset-3'
   style:  "grid-row: 2; grid-column: 1 / span 2"
   image: '4-img.jpg'
   title: '1-title.png'
@@ -43,7 +43,7 @@ artworks:
 
 - name: 'Bottle Sunman'
   id: 5
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 2; grid-column: 3 / span 2"
   image: '5-img.jpg'
   texte: '5-txt.png'
@@ -53,7 +53,7 @@ artworks:
 
 - name: 'Bottle And It Wind'
   id: 6
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 2; grid-column: 5 / span 2"
   image: '6-img.jpg'
   texte: '6-txt.png'
@@ -64,7 +64,7 @@ artworks:
 # Grid row 3
 - name: 'Moon Me'
   id: 7
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 3; grid-column: 1 / span 2"
   image:
     - '7-img.jpg'
@@ -75,12 +75,12 @@ artworks:
 
 - name: 'Test Artwork 8'
   id: 8
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 3; grid-column: 3 / span 2"
 
 - name: 'They Are In'
   id: 9
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 3; grid-column: 5 / span 2"
   image: '9-img.jpg'
   texte: '9-txt.png'
@@ -91,7 +91,7 @@ artworks:
 # Grid row 4
 - name: 'Desire'
   id: 10
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 4; grid-column: 1 / span 2"
   image: '10-img.jpg'
   texte: '10-txt.png'
@@ -101,7 +101,7 @@ artworks:
 
 - name: 'Flightless Future'
   id: 11
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   image: '11-img.jpg'
   texte: '11-txt.png'
   title: '11-title.png'
@@ -111,7 +111,7 @@ artworks:
 
 - name: 'Out Not Inside'
   id: 12
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 4; grid-column: 5 / span 2"
   image: '12-img.jpg'
   texte: '12-txt.png'
@@ -122,7 +122,7 @@ artworks:
 # Grid row 5
 - name: 'Fuck A Book Read A Pussy'
   id: 13
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 5; grid-column: 1 / span 2"
   image: '13-img.jpg'
   texte: '13-txt.png'
@@ -132,7 +132,7 @@ artworks:
 
 - name: 'Knight Light Jeanne Dark'
   id: 14
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 5; grid-column: 3 / span 2"
   image:
     - '14-img.jpg'
@@ -144,7 +144,7 @@ artworks:
 
 - name: 'They Will Count'
   id: 15
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 5; grid-column: 5 / span 2"
   image: '15-img.jpg'
   texte: '15-txt.png'
@@ -155,7 +155,7 @@ artworks:
 # Grid row 6
 - name: 'Black And Blue Turns Red'
   id: 17
-  # class: 'regular'
+  col_class: 'col-xs-12'
   style:  "grid-row: 6; grid-column: 1 / span 6"
   image:
     - '17-img.jpg'
@@ -168,7 +168,7 @@ artworks:
 # Grid row 7
 - name: 'White Is It ?'
   id: 16
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 7; grid-column: 1 / span 2"
   image:
     - '16-img.jpg'
@@ -183,7 +183,7 @@ artworks:
 
 - name: 'Impermanence For Life'
   id: 18
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 7; grid-column: 3 / span 4"
   image:
     - '18-img.jpg'
@@ -196,7 +196,7 @@ artworks:
 # Grid row 8
 - name: 'Check The Boxes'
   id: 19
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 8; grid-column: 1 / span 3"
   image:
     - '19-img.jpg'
@@ -208,7 +208,7 @@ artworks:
 
 - name: It's Not Equal You Dick
   id: 20
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 8; grid-column: 4 / span 3"
   image:
     - '20-img.jpg'
@@ -222,7 +222,7 @@ artworks:
 # Grid row 9
 - name: 'Dark Matter Mind And Nothing Nebulas'
   id: 22
-  # class: 'regular'
+  col_class: 'col-xs-12'
   style:  "grid-row: 9; grid-column: 1 / span 6"
   image: '22-img.jpg'
   texte:
@@ -233,7 +233,7 @@ artworks:
 # Grid row 10
 - name: 'We Are A Forest I Am A Tree'
   id: 21
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 10; grid-column: 1 / span 2"
   image: '21-img.jpg'
   texte: '21-txt.png'
@@ -243,7 +243,7 @@ artworks:
 
 - name: 'The Moon And Her Impostors'
   id: 23
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6 col-sm-offset-3'
   style:  "grid-row: 10; grid-column: 3 / span 2"
   image:
     - '23-img.jpg'
@@ -260,7 +260,7 @@ artworks:
 
 - name: 'Like A Jail'
   id: 24
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 10; grid-column: 5 / span 2"
   image:
     - '24-img.jpg'
@@ -277,12 +277,12 @@ artworks:
 # Grid row 11
 - name: 'Test Artwork 25'
   id: 25
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6'
   style:  "grid-row: 11; grid-column: 1 / span 2"
 
 - name: 'We Are A Forest I Am A Tree'
   id: 26
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6 col-sm-offset-3'
   style:  "grid-row: 11; grid-column: 3 / span 2"
   image:
     - '26-img.jpg'
@@ -293,7 +293,7 @@ artworks:
 
 - name: 'Eye Notes'
   id: 27
-  # class: 'regular'
+  col_class: 'col-xs-12 col-sm-6 col-sm-offset-3'
   style:  "grid-row: 11; grid-column: 5 / span 2"
   image:
     - '27-img.jpg'
