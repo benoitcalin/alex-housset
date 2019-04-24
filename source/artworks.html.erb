@@ -12,11 +12,15 @@
       <div class="grid">
 
         <% data.art.artworks.each do |artwork| %>
-        <% @artwork = artwork %>
+          <% @artwork = artwork %>
 
           <!-- Miniature images of the artworks -->
           <div class="miniature" style="<%= artwork.style %>" id="<%= artwork.id %>">
-            <%= image_tag artwork.image, alt: artwork.name, class: 'artwork', id: "artwork-#{artwork.id}" %>
+            <% if artwork.nb_images == 1 %>
+              <%= image_tag artwork.image, alt: artwork.name, class: 'artwork', id: "artwork-#{artwork.id}" %>
+            <% else %>
+              <%= image_tag artwork.image.to_a.first, alt: artwork.name, class: 'artwork', id: "artwork-#{artwork.id}" %>
+            <% end %>
 
             <div class="filter">
               <h2><%= artwork.name %></h2>
