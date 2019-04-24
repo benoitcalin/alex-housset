@@ -9,6 +9,7 @@ artworks:
   texte: '1-txt.png'
   title: '1-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/like-a-jail'
+  nb_images: 1
 
 - name: 'Bottle Was'
   id: 2
@@ -18,6 +19,7 @@ artworks:
   texte: '2-txt.png'
   title: '1-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 - name: 'Bottle It'
   id: 3
@@ -27,6 +29,7 @@ artworks:
   texte: '3-txt.png'
   title: '1-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/lion-light'
+  nb_images: 1
 
 # Grid row 2
 - name: 'Bottle Friendship'
@@ -36,6 +39,7 @@ artworks:
   image: '4-img.jpg'
   title: '1-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 - name: 'Bottle Sunman'
   id: 5
@@ -45,6 +49,7 @@ artworks:
   texte: '5-txt.png'
   title: '1-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 - name: 'Bottle And It Wind'
   id: 6
@@ -54,15 +59,19 @@ artworks:
   texte: '6-txt.png'
   title: '1-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 # Grid row 3
 - name: 'Moon Me'
   id: 7
   # class: 'regular'
   style:  "grid-row: 3; grid-column: 1 / span 2"
-  image: '7-img.jpg'
+  image:
+    - '7-img.jpg'
+    - '7-img2.jpg'
   texte: '7-txt.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 2
 
 - name: 'Test Artwork 8'
   id: 8
@@ -77,6 +86,7 @@ artworks:
   texte: '9-txt.png'
   title: '9-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 # Grid row 4
 - name: 'Desire'
@@ -87,6 +97,7 @@ artworks:
   texte: '10-txt.png'
   title: '10-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 - name: 'Flightless Future'
   id: 11
@@ -96,6 +107,7 @@ artworks:
   title: '11-title.png'
   style:  "grid-row: 4; grid-column: 3 / span 2"
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 - name: 'Out Not Inside'
   id: 12
@@ -105,6 +117,7 @@ artworks:
   texte: '12-txt.png'
   title: '12-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 # Grid row 5
 - name: 'Fuck A Book Read A Pussy'
@@ -115,15 +128,19 @@ artworks:
   texte: '13-txt.png'
   title: '13-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 - name: 'Knight Light Jeanne Dark'
   id: 14
   # class: 'regular'
   style:  "grid-row: 5; grid-column: 3 / span 2"
-  image: '14-img.jpg'
+  image:
+    - '14-img.jpg'
+    - '14-img2.jpg'
   texte: '14-txt.png'
   title: '14-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 2
 
 - name: 'They Will Count'
   id: 15
@@ -133,53 +150,74 @@ artworks:
   texte: '15-txt.png'
   title: '15-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 # Grid row 6
 - name: 'Black And Blue Turns Red'
   id: 17
   # class: 'regular'
   style:  "grid-row: 6; grid-column: 1 / span 6"
-  image: '17-img.jpg'
+  image:
+    - '17-img.jpg'
+    - '17-img2.jpg'
+    - '17-img3.jpg'
   title: '17-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 3
 
 # Grid row 7
 - name: 'White Is It ?'
   id: 16
   # class: 'regular'
   style:  "grid-row: 7; grid-column: 1 / span 2"
-  image: '16-img.jpg'
+  image:
+    - '16-img.jpg'
+    - '16-img2.jpg'
+    - '16-img3.jpg'
+    - '16-img4.jpg'
+    - '16-img5.jpg'
   texte: '16-txt.png'
   title: '16-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 5
 
 - name: 'Impermanence For Life'
   id: 18
   # class: 'regular'
   style:  "grid-row: 7; grid-column: 3 / span 4"
-  image: '18-img.jpg'
+  image:
+    - '18-img.jpg'
+    - '18-img2.jpg'
   texte: '18-txt.png'
   title: '18-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 2
 
 # Grid row 8
 - name: 'Check The Boxes'
   id: 19
   # class: 'regular'
   style:  "grid-row: 8; grid-column: 1 / span 3"
-  image: '19-img.jpg'
+  image:
+    - '19-img.jpg'
+    - '19-img2.jpg'
   texte: '19-txt.png'
   title: '19-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 2
 
 - name: It's Not Equal You Dick
   id: 20
   # class: 'regular'
   style:  "grid-row: 8; grid-column: 4 / span 3"
-  image: '20-img.jpg'
+  image:
+    - '20-img.jpg'
+    - '20-img2.jpg'
+    - '20-img3.jpg'
   texte: '20-txt.png'
   title: '20-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 3
 
 # Grid row 9
 - name: 'Dark Matter Mind And Nothing Nebulas'
@@ -190,6 +228,7 @@ artworks:
   texte:
   title: '22-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 # Grid row 10
 - name: 'We Are A Forest I Am A Tree'
@@ -200,24 +239,40 @@ artworks:
   texte: '21-txt.png'
   title: '21-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 1
 
 - name: 'The Moon And Her Impostors'
   id: 23
   # class: 'regular'
   style:  "grid-row: 10; grid-column: 3 / span 2"
-  image: '23-img.jpg'
+  image:
+    - '23-img.jpg'
+    - '23-img2.jpg'
+    - '23-img3.jpg'
+    - '23-img4.jpg'
+    - '23-img5.jpg'
+    - '23-img6.jpg'
+    - '23-img7.jpg'
   texte:
   title: '23-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 7
 
 - name: 'Like A Jail'
   id: 24
   # class: 'regular'
   style:  "grid-row: 10; grid-column: 5 / span 2"
-  image: '24-img.jpg'
+  image:
+    - '24-img.jpg'
+    - '24-img2.jpg'
+    - '24-img3.jpg'
+    - '24-img4.jpg'
+    - '24-img5.jpg'
+    - '24-img6.jpg'
   texte: '24-txt.png'
   title: '24-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 6
 
 # Grid row 11
 - name: 'Test Artwork 25'
@@ -229,14 +284,34 @@ artworks:
   id: 26
   # class: 'regular'
   style:  "grid-row: 11; grid-column: 3 / span 2"
-  image: '26-img.jpg'
+  image:
+    - '26-img.jpg'
+    - '26-img2.jpg'
   title: '26-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 2
 
 - name: 'Eye Notes'
   id: 27
   # class: 'regular'
   style:  "grid-row: 11; grid-column: 5 / span 2"
-  image: '27-img.jpg'
+  image:
+    - '27-img.jpg'
+    - '27-img2.jpg'
+    - '27-img3.jpg'
+    - '27-img4.jpg'
+    - '27-img5.jpg'
+    - '27-img6.jpg'
+    - '27-img7.jpg'
+    - '27-img8.jpg'
+    - '27-img9.jpg'
+    - '27-img10.jpg'
+    - '27-img11.jpg'
+    - '27-img12.jpg'
+    - '27-img13.jpg'
+    - '27-img14.jpg'
+    - '27-img15.jpg'
+    - '27-img16.jpg'
   title: '27-title.png'
   soundcloud_url: 'https://soundcloud.com/word-alexhousset/fog'
+  nb_images: 18
