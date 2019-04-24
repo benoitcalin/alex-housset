@@ -27,7 +27,9 @@
             <%= image_tag artwork.title, alt: artwork.name %>
           </div>
           <div class="modal-img">
-            <% if artwork.nb_images == 1 %>
+            <% if artwork.id == 22 %>
+              <%= image_tag artwork.image, class: "#{artwork.img_class}", alt: artwork.name %>
+            <% elsif artwork.nb_images == 1 %>
               <%= image_tag artwork.image, alt: artwork.name %>
             <% else %>
               <%= partial 'carousel' %>

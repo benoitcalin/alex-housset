@@ -223,6 +223,7 @@ artworks:
 - name: 'Dark Matter Mind And Nothing Nebulas'
   id: 22
   col_class: 'col-xs-12'
+  img_class: 'wide-img'
   style:  "grid-row: 9; grid-column: 1 / span 6"
   image: '22-img.jpg'
   texte:
