@@ -5,24 +5,10 @@
       </div>
       <div class="links">
         <!-- Link to Exhibitions -->
-
         <div class='dropdown-link'>
-          <!-- Supprimer lorsque le bloc suivant est activé + css _artworks.scss lignes 54 à 68 -->
           <% link_to '' do %>
             <%= image_tag '0-exhibitions.png', alt: 'Alex Housset - Exhibitions' %>
           <% end %>
-
-          <!-- Décommenter pour afficher le menu Exhibitions -->
-          <!-- <%# link_to '#collapseExhibitions', role: 'button', data: { toggle: 'collapse' }, aria: { expanded: 'false', controls: '#collapseExhibitions' } do %>
-              <%#= image_tag '0-exhibitions.png', alt: 'Alex Housset - Exhibitions' %>
-          <%# end %>
-
-          <div class="collapse" id="collapseExhibitions">
-            <div class="card card-body">
-              <p>Coming Soon!</p>
-            </div>
-          </div> -->
-
         </div>
 
         <!-- Link to Instagram -->
@@ -32,16 +18,9 @@
 
         <!-- Link to Contact -->
         <div class='dropdown-link'>
-          <% link_to '#collapseContact', role: 'button', data: { toggle: 'collapse' }, aria: { expanded: 'false', controls: '#collapseContact' } do %>
+          <% link_to 'alex.housset@gmail.com', role: 'button' do %>
               <%= image_tag '0-contact.png', alt: 'Alex Housset - Contact' %>
           <% end %>
-
-          <div class="collapse" id="collapseContact">
-            <div class="card card-body">
-              <p>mail: exemple@exemple.com</p>
-              <p>tel: 0X.XX.XX.XX.XX</p>
-            </div>
-          </div>
         </div>
 
       </div>
