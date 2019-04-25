@@ -61,12 +61,18 @@
   align-items: center;
 }
 
+@media (min-width: 768px) {
+  .centered-text {
+  padding-top: 35%;
+  }
+}
 
 // Elements of the modal
 .modal-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 15px 0;
   img {
     height: auto;
     width: 100%;

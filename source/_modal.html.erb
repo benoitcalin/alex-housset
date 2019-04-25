@@ -8,9 +8,6 @@
       <% if artwork.texte.nil? %>
 
         <div class="<%= artwork.col_class %>" >
-          <div class="modal-title">
-            <%= image_tag artwork.title, alt: artwork.name %>
-          </div>
           <div class="modal-img">
             <% if artwork.nb_images == 1 %>
               <%= image_tag artwork.image, alt: artwork.name %>
@@ -18,16 +15,14 @@
               <%= partial 'carousel' %>
             <% end %>
           </div>
+          <div class="modal-title">
+            <%= image_tag artwork.title, alt: artwork.name %>
+          </div>
         </div>
 
       <% else %>
 
         <div class="<%= artwork.col_class %>" >
-          <% if !artwork.title.nil? %>
-            <div class="modal-title">
-              <%= image_tag artwork.title, alt: artwork.name %>
-            </div>
-          <% end %>
           <div class="modal-img">
             <% if artwork.id == 22 %>
               <%= image_tag artwork.image, class: "#{artwork.img_class}", alt: artwork.name %>
@@ -37,6 +32,11 @@
               <%= partial 'carousel' %>
             <% end %>
           </div>
+          <% if !artwork.title.nil? %>
+            <div class="modal-title">
+              <%= image_tag artwork.title, alt: artwork.name %>
+            </div>
+          <% end %>
         </div>
 
         <div class="<%= artwork.col_class %> centered-text">
