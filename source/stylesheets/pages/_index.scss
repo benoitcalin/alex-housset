@@ -2,3 +2,16 @@
 @import "home";
 @import "artworks";
 @import "modal";
+
+.mentions {
+  font-size: 9px;
+  color: $gray;
+  opacity: 0.4;
+  margin: 5px;
+  .mentions-link {
+    text-decoration: none;
+    font-size: 9px;
+    color: $gray;
+  }
+}
+
