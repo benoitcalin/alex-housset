@@ -6,16 +6,20 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %></title>
+    <!-- Meta data for seo -->
+    <meta name="keywords" content='Art, Alex Housset, Artiste'>
+    <meta name="description" content='Dear Readers, Abreviations Sucks'>
+    <meta name="reply-to" content='alex.housset@gmail.com'>
+    <meta name="category" content='art'>
+    <meta name="distribution" content="global">
+    <meta name="author" lang="fr" content="Benoit CALIN, Nicolas BEAUDOUIN">
+
+    <title>Alex Housset</title>
 
     <%= stylesheet_link_tag "application" %>
 
-    <!-- Uncomment this when you actually have a favicon.png in /images -->
-    <%#= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
-
 
     <%= yield %>
 
