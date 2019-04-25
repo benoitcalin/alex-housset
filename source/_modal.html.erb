@@ -23,9 +23,11 @@
       <% else %>
 
         <div class="<%= artwork.col_class %>" >
-          <div class="modal-title">
-            <%= image_tag artwork.title, alt: artwork.name %>
-          </div>
+          <% if !artwork.title.nil? %>
+            <div class="modal-title">
+              <%= image_tag artwork.title, alt: artwork.name %>
+            </div>
+          <% end %>
           <div class="modal-img">
             <% if artwork.id == 22 %>
               <%= image_tag artwork.image, class: "#{artwork.img_class}", alt: artwork.name %>
@@ -46,22 +48,16 @@
       <% end %>
     </div>
 
-    <div class="row modal-row">
-      <div class="col-sm modal-col player">
-        <%# Boucle temporaire -> compléter le yml %>
-        <%  if artwork.soundcloud_url.nil?
-              artwork_url = 'https://soundcloud.com/word-alexhousset/white-is-it'
-            else
-              artwork_url = artwork.soundcloud_url
-            end
-        %>
+    <% if !artwork.soundcloud_url.nil? %>
+      <div class="row modal-row">
+        <div class="col-sm modal-col player">
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=<%= artwork.soundcloud_url %>&amp;{ auto_play=true }">
+          </iframe>
+        </div>
 
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=<%= artwork_url %>&amp;{ auto_play=true }">
-        </iframe>
       </div>
-
-    </div>
+    <% end %>
 
     <!-- Bouton retour -->
     <div class="modal-button" id="return-<%= artwork.id %>">
