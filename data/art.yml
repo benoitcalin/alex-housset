@@ -72,10 +72,20 @@ artworks:
   texte: '7-txt.png'
   nb_images: 2
 
-- name: 'Artwork 8'
-  id: 8
+- name: 'White Is It ?'
+  id: 16
   col_class: 'col-xs-12 col-sm-12 col-md-6'
   style:  "grid-row: 3; grid-column: 3 / span 2"
+  image:
+    - '16-img.jpg'
+    - '16-img2.jpg'
+    - '16-img3.jpg'
+    - '16-img4.jpg'
+    - '16-img5.jpg'
+  texte: '16-txt.png'
+  title: '16-title.png'
+  soundcloud_url: 'https://soundcloud.com/word-alexhousset/white-is-it'
+  nb_images: 5
 
 - name: 'They Are In'
   id: 9
@@ -161,25 +171,11 @@ artworks:
   nb_images: 3
 
 # Grid row 7
-- name: 'White Is It ?'
-  id: 16
-  col_class: 'col-xs-12 col-sm-12 col-md-6'
-  style:  "grid-row: 7; grid-column: 1 / span 2"
-  image:
-    - '16-img.jpg'
-    - '16-img2.jpg'
-    - '16-img3.jpg'
-    - '16-img4.jpg'
-    - '16-img5.jpg'
-  texte: '16-txt.png'
-  title: '16-title.png'
-  soundcloud_url: 'https://soundcloud.com/word-alexhousset/white-is-it'
-  nb_images: 5
 
 - name: 'Impermanence For Life'
   id: 18
   col_class: 'col-xs-12 col-sm-12 col-md-6'
-  style:  "grid-row: 7; grid-column: 3 / span 4"
+  style:  "grid-row: 7; grid-column: 2 / span 4"
   image:
     - '18-img.jpg'
     - '18-img2.jpg'
@@ -264,15 +260,10 @@ artworks:
   nb_images: 6
 
 # Grid row 11
-- name: 'Artwork 25'
-  id: 25
-  col_class: 'col-xs-12 col-sm-12 col-md-6'
-  style:  "grid-row: 11; grid-column: 1 / span 2"
-
 - name: 'We Are A Forest I Am A Tree'
-  id: 26
+  id: 25
   col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
-  style:  "grid-row: 11; grid-column: 3 / span 2"
+  style:  "grid-row: 11; grid-column: 1 / span 2"
   image:
     - '26-img.jpg'
     - '26-img2.jpg'
@@ -280,25 +271,134 @@ artworks:
   nb_images: 2
 
 - name: 'Eye Notes'
+  id: 26
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 11; grid-column: 3 / span 2"
+  image: '27-img.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
   id: 27
   col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
   style:  "grid-row: 11; grid-column: 5 / span 2"
-  image:
-    - '27-img.jpg'
-    - '27-img2.jpg'
-    - '27-img3.jpg'
-    - '27-img4.jpg'
-    - '27-img5.jpg'
-    - '27-img6.jpg'
-    - '27-img7.jpg'
-    - '27-img8.jpg'
-    - '27-img9.jpg'
-    - '27-img10.jpg'
-    - '27-img11.jpg'
-    - '27-img12.jpg'
-    - '27-img13.jpg'
-    - '27-img14.jpg'
-    - '27-img15.jpg'
-    - '27-img16.jpg'
+  image: '27-img2.jpg'
   title: '27-title.png'
-  nb_images: 18
+  nb_images: 1
+
+# Grid row 12
+- name: 'Eye Notes'
+  id: 28
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 12; grid-column: 1 / span 2"
+  image: '27-img3.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 29
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 12; grid-column: 3 / span 2"
+  image: '27-img4.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 30
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 12; grid-column: 5 / span 2"
+  image: '27-img5.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+# Grid row 13
+- name: 'Eye Notes'
+  id: 31
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 13; grid-column: 1 / span 2"
+  image: '27-img6.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 32
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 13; grid-column: 3 / span 2"
+  image: '27-img7.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 33
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 13; grid-column: 5 / span 2"
+  image: '27-img8.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+# Grid row 14
+- name: 'Eye Notes'
+  id: 34
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 14; grid-column: 1 / span 2"
+  image: '27-img9.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 35
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 14; grid-column: 3 / span 2"
+  image: '27-img10.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 36
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 14; grid-column: 5 / span 2"
+  image: '27-img11.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+# Grid row 15
+- name: 'Eye Notes'
+  id: 37
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 15; grid-column: 1 / span 2"
+  image: '27-img12.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 38
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 15; grid-column: 3 / span 2"
+  image: '27-img13.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 39
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 15; grid-column: 5 / span 2"
+  image: '27-img14.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+# Grid row 16
+- name: 'Eye Notes'
+  id: 40
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 16; grid-column: 1 / span 2"
+  image: '27-img15.jpg'
+  title: '27-title.png'
+  nb_images: 1
+
+- name: 'Eye Notes'
+  id: 41
+  col_class: 'col-xs-12 col-sm-12 col-md-6 col-sm-offset-3'
+  style:  "grid-row: 16; grid-column: 3 / span 2"
+  image: '27-img16.jpg'
+  title: '27-title.png'
+  nb_images: 1
