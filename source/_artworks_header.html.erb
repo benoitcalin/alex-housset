@@ -1,28 +1,22 @@
 <div class="artworks-header">
-    <div class="artist-content">
-      <div class='title-div'>
-        <%= image_tag '0-name-title.png', alt: 'Alex Housset', class: 'title' %>
-      </div>
-      <div class="links">
-        <!-- Link to Exhibitions -->
-        <div class='dropdown-link'>
-          <% link_to '' do %>
-            <%= image_tag '0-exhibitions.png', alt: 'Alex Housset - Exhibitions' %>
-          <% end %>
-        </div>
-
-        <!-- Link to Instagram -->
-        <% link_to 'https://www.instagram.com/alexhousset/', target:'_blank' do %>
-            <%= image_tag '0-instagram.png', alt: 'Alex Housset - Instagram' %>
-        <% end %>
-
-        <!-- Link to Contact -->
-        <div class='dropdown-link'>
-          <a href="mailto:alex.housset@gmail.com">
-            <%= image_tag '0-contact.png', alt: 'Alex Housset - Contact' %>
-          </a>
-        </div>
-
-      </div>
-    </div>
+  <div class='title-div'>
+    <%= image_tag '0-name-title.png', alt: 'Alex Housset', class: 'title' %>
   </div>
+  <div class="links">
+    <!-- Link to Exhibitions -->
+    <% link_to '' do %>
+      <%= image_tag '0-exhibitions.png', alt: 'Alex Housset - Exhibitions' %>
+    <% end %>
+
+    <!-- Link to Instagram -->
+    <% link_to 'https://www.instagram.com/alexhousset/', target:'_blank' do %>
+        <%= image_tag '0-instagram.png', alt: 'Alex Housset - Instagram' %>
+    <% end %>
+
+    <!-- Link to Contact -->
+    <a href="mailto:alex.housset@gmail.com">
+      <%= image_tag '0-contact.png', alt: 'Alex Housset - Contact' %>
+    </a>
+
+  </div>
+</div>
